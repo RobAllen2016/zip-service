@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Three Test Cases</title>
+</head>
+<body>
+
+<!--
+
+Manually open this page in a browser.  Click the links to submit GET requests to the Spring Boot webservice and
+receive the results.  Build and run the jar file (java -jar build/libs/zip-aggregator-service-0.1.0.jar) or open in
+your favorite IDE and run the main() method in SpringBootAppConfiguration.java.
+
+-->
+
+<h3>Test 1</h3>
+  <a href="http://localhost:8090/zip-aggregator?ranges=[94133,94133] [94200,94299] [94600,94699]" target="_blank">
+      [94133,94133] [94200,94299] [94600,94699]
+  </a>
+<h3>Test 2</h3>
+  <a href="http://localhost:8090/zip-aggregator?ranges=[94133,94133] [94200,94299] [94226,94399]" target="_blank">
+      [94133,94133] [94200,94299] [94226,94399]
+  </a>
+<h3>Test3</h3>
+  <a href="http://localhost:8090/zip-aggregator?ranges=[90090,90190] [90570,90600] [90020,90310] [90510,90560] [90010,90010] [90180,90500] [90590,90600] [90180,90500]" target="_blank">
+      [90090,90190] [90570,90600] [90020,90310] [90510,90560] [90010,90010] [90180,90500] [90590,90600] [90180,90500]
+  </a>
+</body>
+</html>
