@@ -3,7 +3,7 @@
 ## GitHub Repository
 
 Just a quick note: I included the compiled JAR file (build/libs/zip-aggregator-service-0.1.0.jar) in the repository, 
-so if you want to skip compiling the source and just try running it, you can download the jar and `java -jar build/libs/zip-aggregator-service-0.1.0.jar' to run it.
+so if you want to skip compiling the source and just try running it, you can download the jar and `java -jar build/libs/zip-aggregator-service-0.1.0.jar` to run it.
 
 ## Overview of Building Out This Exercise
 
